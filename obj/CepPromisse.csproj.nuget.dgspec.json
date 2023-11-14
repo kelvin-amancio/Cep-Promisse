@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\CepPromisse\\CepPromisse\\CepPromisse.csproj": {}
+  },
+  "projects": {
+    "E:\\CepPromisse\\CepPromisse\\CepPromisse.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\CepPromisse\\CepPromisse\\CepPromisse.csproj",
+        "projectName": "CepPromisse",
+        "projectPath": "E:\\CepPromisse\\CepPromisse\\CepPromisse.csproj",
+        "packagesPath": "C:\\Users\\kelvin.amancio\\.nuget\\packages\\",
+        "outputPath": "E:\\CepPromisse\\CepPromisse\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kelvin.amancio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ValgroupDevOps/6aee00c2-e436-4f87-b6bb-de007f756adc/_packaging/valgroup/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
