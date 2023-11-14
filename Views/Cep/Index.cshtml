@@ -1,0 +1,35 @@
+﻿@model CepPromisse.Application.Dtos.CepDto
+
+<div class="d-flex align-items-center justify-content-center flex-column">
+    <h2>Search Address</h2>
+    <h3>Enter a corporate or residential street address, city, and state to see a specific ZIP Code</h3>
+    <button asp-action="Modal" type="submit" class="btn btn-sm btn-primary mt-3" data-bs-toggle="modalZip" data-bs-target="modal-trigger">Find by Address</button>
+</div>
+
+<div class="modal fade" id="modalZip" tabindex="-1" aria-labelledby="modalZip" aria-hidden="true">
+
+    <form method="post" asp-action="GetZipCode">
+        <div class="mb-3" style="text-align:center;">
+            <label for="zipCode" class="form-label">Zip Code</label>
+            <input type="text" class="form-control" asp-for="@Model.cep" id="zipCode" aria-describedby="zipCodeHelp">
+
+            <button type="submit" class="btn btn-sm btn-primary mt-3">Search</button>
+        </div>
+    </form>
+
+</div>
+
+@section Scripts{
+    <script>
+        const myModal = new bootstrap.Modal(document.getElementById('modalZip'), {});
+        const trigg = document.querySelector('#modal-trigger');
+
+        function showModal(el) {
+            el.show();
+        }
+
+        trigg.addEventListener('click', function () {
+            showModal(myModal);
+        });
+    </script>
+}

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CepPromisse.Web", "CepPromisse.Web.csproj", "{72C2E8E6-CFCB-4843-A7E0-A6021D95A573}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CepPromisse.Application", "..\Application\CepPromisse.Application.csproj", "{05BB13E6-2D0B-4CC1-87EA-025AC3A46B67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72C2E8E6-CFCB-4843-A7E0-A6021D95A573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72C2E8E6-CFCB-4843-A7E0-A6021D95A573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72C2E8E6-CFCB-4843-A7E0-A6021D95A573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72C2E8E6-CFCB-4843-A7E0-A6021D95A573}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05BB13E6-2D0B-4CC1-87EA-025AC3A46B67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05BB13E6-2D0B-4CC1-87EA-025AC3A46B67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05BB13E6-2D0B-4CC1-87EA-025AC3A46B67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05BB13E6-2D0B-4CC1-87EA-025AC3A46B67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA7DAE46-802F-4537-960F-93A582202360}
+	EndGlobalSection
+EndGlobal
